@@ -1,0 +1,86 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.livechat-wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 20px auto 0px auto;
+    box-sizing: border-box;
+    padding: 80px 100px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.livechat-content{
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.livechat-logo{
+    height: 60px;
+}
+
+.livechat-icon{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.livechat-link{
+    text-decoration: none;
+    color: #02B875;
+    font-weight: bold;
+}
+
+.livechat-link:hover{
+    text-decoration: underline;
+    color: #09915f;
+}
+
+.livechat-button-green{
+    border: none;
+    padding: 15px 20px;
+    background-color: #02B875;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.livechat-button-green:hover{
+    cursor: pointer;
+    background-color: #09915f;
+    color: white;
+}
+
+.livechat-button-green:focus{
+    background-color: #09915f;
+    color: white;
+}
+
+.livechat-button-outline{
+    border: 1px solid #8992A4;
+    padding: 15px 20px;
+    background-color: white;
+    color: #8992A4;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.livechat-button-outline:hover{
+    cursor: pointer;
+    background-color: #8992A4;
+    color: white;
+}
+
+.livechat-button-outline:focus{
+    background-color: #8992A4;
+    color: white;
+}
